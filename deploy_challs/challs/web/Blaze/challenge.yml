@@ -1,0 +1,21 @@
+name: Blaze
+author: attendant_of_mysteries
+category: Web
+
+description: My website is very secure it's literally unhackable because I used the dark art of WASM >:D
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 5
+  minimum: 250
+
+connection_info: https://blaze.not-me.tech
+
+flags:
+  - MCSC{__//|__y0u_d3s3rve_a_m3d4l_n0t_g0nna_lie_:D__|\\__}
+
+tags:
+  - web
+  - medium

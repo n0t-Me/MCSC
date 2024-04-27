@@ -1,0 +1,22 @@
+name: mix
+author: aramya
+category: Rev
+
+description: "The order: r8, r9, r10 should be respected."
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 5
+  minimum: 250
+
+flags:
+  - mcsc{d4ta_1s_c0de_t00}
+
+tags:
+  - rev
+  - hard
+
+files:
+  - mix

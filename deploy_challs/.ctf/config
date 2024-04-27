@@ -1,0 +1,25 @@
+[config]
+url = https://ctfd.not-me.tech/
+access_token = ctfd_e51511d253958ea57d0e3071f05080cbc4ad48ac7b203395d56264fa7976611d
+
+[challenges]
+challs/crypto/Irusa_sensei = challs/crypto/Irusa_sensei
+challs/crypto/T0R_not_X0R = challs/crypto/T0R_not_X0R
+challs/crypto/lwe = challs/crypto/lwe
+challs/pwn/jit = challs/pwn/jit
+challs/pwn/setjmp = challs/pwn/setjmp
+challs/rev/mix = challs/rev/mix
+challs/rev/gekko = challs/rev/gekko
+challs/misc/Cereals = challs/misc/Cereals
+challs/misc/Arcane = challs/misc/Arcane
+challs/misc/Matryoshka = challs/misc/Matryoshka
+challs/misc/Meta = challs/misc/Meta
+challs/quantum/Q4N2 = challs/quantum/Q4N2
+challs/quantum/Q4N1 = challs/quantum/Q4N1
+challs/stego/Kat_2 = challs/stego/Kat_2
+challs/stego/Kat_1 = challs/stego/Kat_1
+challs/web/Blaze = challs/web/Blaze
+challs/web/EZ = challs/web/EZ
+challs/web/WarmUp = challs/web/WarmUp
+challs/web/leXoR = challs/web/leXoR
+

@@ -1,0 +1,21 @@
+name: two lwe hint only
+author: ryuken
+category: Crypto
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 5
+  minimum: 250
+
+files:
+  - output.out
+  - chall.sage
+
+flags:
+  - MCSC{1f_y0u_l34rn3d_fr0m_17,_7h3n_17_w45n'7_4_m1574k3._17_w45_4_l3550n.}
+
+tags:
+  - crypto
+  - hard

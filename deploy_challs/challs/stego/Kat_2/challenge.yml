@@ -1,0 +1,23 @@
+name: Kat_2
+author: attendant_of_mysteries
+category: Stego
+
+description: My cat have amblyopia :(
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 5
+  minimum: 250
+
+
+flags:
+  - MCSC{__/Aut0st3r30gramz_4re_c0ol\__}
+
+tags:
+  - misc
+  - medium
+
+files:
+  - chall.jpg

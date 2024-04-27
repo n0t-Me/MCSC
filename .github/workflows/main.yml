@@ -1,0 +1,43 @@
+name: Deploy stuff to AWS
+on: workflow_dispatch
+jobs:
+  deploy:
+    name: Deploy
+    environment: default
+    runs-on: ubuntu-latest
+
+    steps:
+     - name: Checkout
+       uses: actions/checkout@v4
+       with:
+        token: ${{ secrets.PAT }}
+        
+     - name: Setup
+       run: export CLOUDFLARE_API_TOKEN=${{ vars.CLOUDFLARE_API_TOKEN }} && bash setup.sh
+       
+     - name: Setup TF
+       uses: hashicorp/setup-terraform@v3
+       with:
+          terraform_version: "1.7.3"
+          
+     - name: Terraform Init
+       id: init
+       run: terraform init
+
+     - name: Terraform Validate
+       id: validate
+       run: terraform validate
+
+     - name: Terraform apply
+       id: apply
+       run: CLOUDFLARE_API_TOKEN=${{vars.CLOUDFLARE_API_TOKEN}} terraform apply -auto-approve
+
+     - name: Push docker images to ECR
+       run: ./deploy_containers/deploy.sh
+
+     - name: Deploy leXoR to Amplify
+       run: ./deploy_static_challenges/leXoR/deploy.sh
+
+     - name: Auto Commit
+       uses: stefanzweifel/git-auto-commit-action@v5
+

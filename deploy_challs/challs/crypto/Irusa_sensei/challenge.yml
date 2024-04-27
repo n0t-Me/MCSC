@@ -1,0 +1,20 @@
+name: Irusa_sensei
+author: ryuken
+category: Crypto
+
+connection_info: irusa.not-me.tech:5000
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 5
+  minimum: 250
+
+
+flags:
+  - MCSC{7h3_3n3mY_Kn0w5_7h3_5yS73m...Cl4ud3_5h4nN0n}
+
+tags:
+  - crypto
+  - medium

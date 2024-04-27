@@ -1,0 +1,21 @@
+name: WarmUp
+author: attendant_of_mysteries
+category: Web
+
+description: A little warmup to get ready for the CTF :)
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 5
+  minimum: 250
+
+connection_info: https://warmup.not-me.tech
+
+flags:
+  - INSEC{Br3333333h_why_3m0jis_1n_k33y}
+
+tags:
+  - web
+  - very easy

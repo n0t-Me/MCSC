@@ -1,0 +1,21 @@
+name: EZ
+author: attendant_of_mysteries
+category: Web
+
+description: Get the latest weather data from our Meteo Satellite directly !!
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 5
+  minimum: 250
+
+connection_info: https://ez.not-me.tech
+
+flags:
+  - MCSC{s3rv3r_s1de_1nclusion_1s_r34L_st4y_s4fe :P}
+
+tags:
+  - web
+  - easy

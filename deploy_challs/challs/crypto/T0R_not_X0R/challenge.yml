@@ -1,0 +1,24 @@
+name: T0R_not_X0R
+author: ryuken
+category: Crypto
+
+description: 
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 5
+  minimum: 250
+
+
+flags:
+  - MCSC{x0r_ch4ll3ng3S_4r3_0u7d473d_n0w4d4y5_xD!!!}
+
+files:
+  - Output.txt
+  - T0R_not_X0R.py
+
+tags:
+  - crypto
+  - easy

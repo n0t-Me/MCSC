@@ -1,0 +1,4 @@
+- VPC + Subnets
+- ALB
+- ECR
+- ECS

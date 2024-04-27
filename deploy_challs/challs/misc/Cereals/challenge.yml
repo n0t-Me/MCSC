@@ -1,0 +1,22 @@
+name: Cereals
+author: attendant_of_mysteries
+category: Misc
+
+description: Can you recover the flag? 
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 5
+  minimum: 250
+
+flags:
+  - MCSC{qR__c0de5_r_ffun_!}
+
+tags:
+  - misc
+  - easy
+
+files:
+  - chall.bin

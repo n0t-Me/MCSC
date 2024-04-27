@@ -1,0 +1,21 @@
+name: leXoR
+author: attendant_of_mysteries
+category: Web
+
+description: Ḑ̵̛͉̰̰͖́̾̈́̋̌͐͝ǫ̸̱̮̠͙̘̹̍̽̂͋̀͐̚͝ͅņ̶̥̱͙̖̤̖̰̈́͝'̷͍͈̜̆͛̀͆̒t̷̺̬͈̲͈̊͂̚͝ ̸̢̹̝̥͙͈̀͗̄̄͒͊͘w̵̧͉̗͎͔͉̘̰̅̃̾̄͘ḁ̸̧̖̫̆̆̂̈s̶͎̯͚̖̳̃̓̐̃͝ẗ̶̗͍͙̻̜́̓ë̶̟͖͖͈͔̦̫́͂̎̑͆̎ ̴̩̝̙͓̒͆́̅̽͝y̵̧̢̡̼͍̲̿ȯ̶̢̼͕͓͆ű̶̘͉͓̭̆͌͌͆́̾͝r̷̡̳̤̱͕͉͚̄̆͠ ̸͕̃̌t̴͍͎̲̍͐͆̆ͅi̵̤͙̣͓̥͆m̸͈͓̙͈͓͚͌̋é̸̥͚̣̦̝̑̊͆̈́͝ ̶̧͙̏̓̈́̀̚͠͠ͅh̸̡̡̼̬̹͔̉̀̈́͑̍͐ͅe̸͈̺̮̫̜̹͚͈̋r̶͙̞͕̝̳̻̟̦̐e̷͓̙̹̓̈́.̸͕̠͈͕̎͊̀̄̒̏̀̀.̷̨̨̞͌̇̇̈́.̵͍̣͎̏̐̌̉̈́̈́̇̽
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 5
+  minimum: 250
+
+connection_info: https://lexor.not-me.tech
+
+flags:
+  - MCSC{__yea_probably_zis_should_be_in_rev_category_xd_}
+
+tags:
+  - web
+  - hard

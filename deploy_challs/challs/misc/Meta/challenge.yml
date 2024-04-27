@@ -1,0 +1,22 @@
+name: Meta
+author: attendant_of_mysteries
+category: Misc
+
+description: A small walk with a little twist :D
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 5
+  minimum: 250
+
+flags:
+  - insec{//_w0w_u_d1sc0v3r3d_my_suP3r_h1dd3n_pl4ce_o_0_//}
+
+tags:
+  - misc
+  - easy
+
+files:
+  - chall.bin

@@ -1,0 +1,22 @@
+name: Matryoshka
+author: attendant_of_mysteries
+category: Misc
+
+description: Zip(Zip(Zip(Zip(Zip(Zip(Zip(...)))))))
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 5
+  minimum: 250
+
+flags:
+  - MCSC{||__d0_u_l1ke_zip_b0mbs??__||}
+
+tags:
+  - misc
+  - medium
+
+files:
+  - chall.7z

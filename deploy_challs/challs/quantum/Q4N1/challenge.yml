@@ -1,0 +1,24 @@
+name: Q4N1
+author: attendant_of_mysteries
+category: Quantum
+
+description: We got some files from a lab computer and we believe it contains important informations, can you decode it?
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 5
+  minimum: 250
+
+
+flags:
+  - INSEC{_//_Qu4ntumm_w0rld_pwn33d_!//_b8f91}
+
+tags:
+  - Quantum
+  - easy
+
+files:
+  - results.txt
+  - chall.qasm

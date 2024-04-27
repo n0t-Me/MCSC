@@ -1,0 +1,23 @@
+name: Q4N2
+author: attendant_of_mysteries
+category: Quantum
+
+description: We can't understand what does that mean, please help us!
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 5
+  minimum: 250
+
+
+flags:
+  - insec{/__4dv3nture_1n_p4r4llel_un1v3rses__/}
+
+tags:
+  - Quantum
+  - Medium
+
+files:
+  - chall.txt
